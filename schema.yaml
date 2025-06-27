@@ -1,19 +1,17 @@
-# Dummy schema for ML project
+COLUMNS:
+  fixed acidity: float64
+  volatile acidity: float64
+  citric acid: float64
+  residual sugar: float64
+  chlorides: float64
+  free sulfur dioxide: float64
+  total sulfur dioxide: float64
+  density: float64
+  pH: float64
+  sulphates: float64
+  alcohol: float64
+  quality: int64
 
-model:
-  name: dummy_model
-  version: 1.0
 
-data:
-  input_features:
-    - name: feature1
-      type: float
-    - name: feature2
-      type: int
-  target:
-    name: target
-    type: int
-
-parameters:
-  learning_rate: 0.01
-  epochs: 10
+TARGET_COLUMN:
+  name: quality
