@@ -1,0 +1,19 @@
+# Dummy schema for ML project
+
+model:
+  name: dummy_model
+  version: 1.0
+
+data:
+  input_features:
+    - name: feature1
+      type: float
+    - name: feature2
+      type: int
+  target:
+    name: target
+    type: int
+
+parameters:
+  learning_rate: 0.01
+  epochs: 10

@@ -5,7 +5,7 @@ Utils is functionalities we'll be using frequently in our code
 import os
 from box.exceptions import BoxValueError
 import yaml
-from mlProject import logger
+from mlproject import logger
 import json
 import joblib
 from ensure import ensure_annotations     # if passed wrong datatype param in func will return error
