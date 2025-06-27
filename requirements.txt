@@ -3,6 +3,7 @@ numpy
 mlflow
 notebook
 scikit-learn
+config-box
 matplotlib
 python-box
 pyYAML
