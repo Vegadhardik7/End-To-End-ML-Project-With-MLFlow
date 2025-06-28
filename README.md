@@ -62,20 +62,36 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow.mlflow \
+MLFLOW_TRACKING_USERNAME=Vegadhardik7 \
+MLFLOW_TRACKING_PASSWORD=0b097abf2f947a5cd50556274d27ae5b907535de \
 python script.py
 
 Run this to export as env variables:
 
+For Linux:
+
 ```bash
+export MLFLOW_ENABLE_LEGACY_LOGGING_API=true
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=Vegadhardik7 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=0b097abf2f947a5cd50556274d27ae5b907535de
+
+```
+
+For Windows:
+
+```bash
+set MLFLOW_ENABLE_LEGACY_LOGGING_API=true
+
+set MLFLOW_TRACKING_URI=https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow.mlflow
+
+set MLFLOW_TRACKING_USERNAME=Vegadhardik7 
+
+set MLFLOW_TRACKING_PASSWORD=0b097abf2f947a5cd50556274d27ae5b907535de
 
 ```
 
