@@ -12,7 +12,9 @@
 8. Update the main.py
 9. Update the app.py
 
+Image Reference In Sequence:
 
+![Screenshot 2025-06-27 150602](https://github.com/user-attachments/assets/e51ec45f-6b26-4be5-83fa-5e91ffcf5a31)
 
 # How to run?
 ### STEPS:
@@ -62,10 +64,14 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
+My DagHub Link: https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow
+
+```
 MLFLOW_TRACKING_URI=https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow.mlflow \
 MLFLOW_TRACKING_USERNAME=Vegadhardik7 \
 MLFLOW_TRACKING_PASSWORD=0b097abf2f947a5cd50556274d27ae5b907535de \
 python script.py
+```
 
 Run this to export as env variables:
 
@@ -157,6 +163,10 @@ set MLFLOW_TRACKING_PASSWORD=0b097abf2f947a5cd50556274d27ae5b907535de
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
+Deployment Completed on EC2 instance:
+
+![Screenshot 2025-06-28 215533](https://github.com/user-attachments/assets/3e5889f8-6d8c-4d28-ae8c-b84fbf193124)
+
 
 # 7. Setup github secrets:
 
@@ -179,5 +189,17 @@ MLflow
  - Its Production Grade
  - Trace all of your expriements
  - Logging & tagging your model
+
+List Of Model Trained On Different HyperParameters:
+
+![Screenshot 2025-06-28 194102](https://github.com/user-attachments/assets/49c6ba9c-1fcc-43a4-bbce-fbb8a7881943)
+
+Model Performance Comparison using MLFlow:
+
+![Screenshot 2025-06-28 194046](https://github.com/user-attachments/assets/db3b1d47-22a1-4e84-acbf-7cc02fa85775)
+
+Best Performing Model:
+
+![Screenshot 2025-06-28 194132](https://github.com/user-attachments/assets/499fbfb0-b4d6-47fc-9a70-32c56d081816)
 
 
