@@ -64,7 +64,7 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-My DagHub Link: https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow
+My DagsHub Link: https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow
 
 ```
 MLFLOW_TRACKING_URI=https://dagshub.com/Vegadhardik7/End-To-End-ML-Project-With-MLFlow.mlflow \
